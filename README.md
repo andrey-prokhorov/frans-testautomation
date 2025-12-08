@@ -2,11 +2,23 @@
 
 Detta projekt är en lösning för webbaserad testning byggd med **Playwright** och **TypeScript** inom kursen:
 
-_“Testautomation och AI inom it-test”_ på Frans Schartaus Handelsinstitut
-https://schartau.stockholm/program-och-kurser/datait/testautomation-och-ai-inom-it-test/
+[“Testautomation och AI inom it-test”](https://schartau.stockholm/program-och-kurser/datait/testautomation-och-ai-inom-it-test/) på Frans Schartaus Handelsinstitut
 
 Period: 23 oktober - 8 januari 2025
 10 veckor, 25 YH-poäng
+
+Kursen innehåller följande moment:
+
+- Automatiserad webbtestning
+- Ramverk och metodik
+- Automatiseringsregler
+- Automatisk testmetodik
+- AI programmering
+- AI för att optimera testskript, testautomatisering samt analysera användardokumentation och krav
+- Identifiera potentiella användarscenarion
+- Prestandatester
+- Säkerhetstestning
+- Hållbarhet
 
 ---
 
@@ -25,9 +37,8 @@ Your repository should contain:
 
 The following API's can be used to fetch product data for the store:
 
-https://hoff.is/store2/api/v1/price/1
-
-https://hoff.is/store2/api/v1/product/list - to fetch a list of products in the store.
+- https://hoff.is/store2/api/v1/product/list - to fetch a list of products in the store.
+- https://hoff.is/store2/api/v1/price/1 - to fetch a product by id
 
 Here is an example:
 
