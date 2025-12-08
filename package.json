@@ -1,14 +1,20 @@
 {
-  "name": "fransfinal",
+  "name": "testautomation-och-ai-inom-it-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright test --reporter=html && npx playwright show-report"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Andrey Prokhorov",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^24.10.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
   }
 }
